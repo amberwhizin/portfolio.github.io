@@ -1,0 +1,17 @@
+body {
+  background-color: lavender;
+}
+
+.name {
+  text-align: center;
+}
+
+p {
+  margin-left: 20px;
+}
+
+nav {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
