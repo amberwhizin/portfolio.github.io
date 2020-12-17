@@ -2,12 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CSS only -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <!-- CSS bootstrap -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="main.css" />
@@ -15,24 +18,121 @@
   </head>
   <body>
     <div class="container-fullwidth">
-<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">  
-      <a href="#">
-        <p>Projects</p>
-      </a>
-      <p>About</p>
-      <p>Skills</p>
-      <p>Resume</p>
-      <p>Contact</p>
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <div>
+          <!-- eventually make it scroll to top with logo -->
+          <a id="back-to-top" class="logo"><h2>A.W.</h2></a>
+        </div>
+        <ul>
+          <li>
+            <a href="#">
+              <p>About</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>Projects</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>Skills</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>Contact</p>
+            </a>
+          </li>
+        </ul>
       </nav>
     </div>
     <div class="container">
-      <h4 class="name">Amber Whizin</h4>
+      <h1 class="name">Amber Whizin</h1>
+      <h2 class="title">About</h2>
+      <div class="shadow-sm p-3 mb-5 bg-white rounded">
+        <div class="card" style="width: 18rem">
+          <div class="card-body">
+            <p class="card-text">
+              Hello there, I'm Amber. I'm a FrontEnd Engineer.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects">
+        <h2 class="title">Projects</h2>
+        <div class="item">
+          <div class="item-info">
+            <a href="https://amberwhizin.github.io/connect_4/" target="_blank"
+              ><h4>Connect 4</h4></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="projects">
+        <div class="item">
+          <div class="item-info">
+            <a
+              href="https://telly-critic.herokuapp.com/sessions/new"
+              target="_blank"
+              ><h4>TellyCritic</h4></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="projects">
+        <div class="item">
+          <div class="item-info">
+            <a
+              href="https://carefulfriends-client.herokuapp.com/"
+              target="_blank"
+              ><h4>CarefulFriends</h4></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <h2 class="title">Contact</h2>
+      <form action="action_page.php">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Name" />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email" />
+
+        <label for="subject">Subject</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Write something.."
+          style="height: 200px"
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+
+      <footer>
+        <p class="footer">Amber Whizin 2020</p>
+      </footer>
     </div>
+
     <!-- JavaScript Bundle with Popper -->
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
   </body>
 </html>
