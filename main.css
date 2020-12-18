@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poiret+One");
 
 body {
-  background-color: lavender;
+  background: linear-gradient(0.25turn, #C0D8E0, #ebf8e1, #C0D8E0);
   margin: auto;
   font-family: "Poiret One", sans-serif;
 }
@@ -36,6 +36,7 @@ ul {
 .title {
   margin-bottom: 2rem;
   margin-top: 2rem;
+  border-top: 2px solid grey;
 }
 
 p {
