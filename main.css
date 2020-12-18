@@ -33,12 +33,12 @@ ul {
 }
 
 .name {
-  margin-top: 25rem;
+  margin-top: 10rem;
   font-size: 7rem;
 }
 
 .job-title {
-  margin-bottom: 65rem;
+  margin-bottom: 50rem;
   margin-top: 4rem;
   font-size: 2rem;
 }
@@ -48,7 +48,7 @@ ul {
   margin-bottom: 10rem;
 }
 
-.title {
+.title {""
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
