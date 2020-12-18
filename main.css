@@ -88,8 +88,15 @@ p {
   margin: 30px 30px;
 }
 
-/* @media only screen and (max-width: 600px) {
-  # {
-    width: 100%;
+/* @media only screen and (max-width: 900px) {
+  .connect4 {
+    height: 50rem;
+    width: 55rem;
+  }
+} */
+/* @media only screen and (max-width: 900px) {
+  .project-images {
+    height: 60rem;
+    width: 1rem;
   }
 } */
