@@ -48,7 +48,7 @@ ul {
   margin-bottom: 10rem;
 }
 
-.title {""
+.title {
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
@@ -74,6 +74,10 @@ p {
   text-align: center;
   padding: 0;
   margin: 0;
+}
+
+#project-description {
+  margin-top: 2rem;
 }
 
 .social {
