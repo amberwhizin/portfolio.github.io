@@ -20,13 +20,13 @@
     <title>Amber Whizin</title>
   </head>
   <body>
+    <!-- navigation -->
     <div class="container-fullwidth sticky-top">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">A.W.</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+      <a class="navbar-brand" href="#">A.W.</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
   </button>
-
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
@@ -45,11 +45,12 @@
   </div>
 </nav>
     </div>
-    
     <div class="container">
       <h1 class="name">Amber Whizin</h1>
       <h1 class="job-title">Software | Front-End Engineering</h1>
       <!-- add profile photo here, crop it and edit it first -->
+
+      <!-- about section -->
       <section class="about section" id="about">
       <hr class="line" style="width:100%">
       <div class="jumbotron jumbotron-fluid">
@@ -60,6 +61,8 @@
   </div>
 </div>
 </section>
+<!-- skills section -->
+<!-- change these to icons, with descriptive names -->
 <section class="skills section" id="skills">
   <div class="container">
       <hr class="line" style="width:100%">
@@ -70,8 +73,10 @@
 Fullstack Application | Debugging | Customer Service Management | Team Building & Training | RESTful API’s | Object-Oriented Programming | Relational Databases & Non-Relational Databases | Collaborate with FE/BE Developers | User Advocate | Heroku</p>
 </div>
 </div>
+</div>
 
 </section>
+<!-- project list -->
 <section class="about section" id="projects">
     <hr class="line" style="width:100%">
       <div class="container">
@@ -120,7 +125,7 @@ Fullstack Application | Debugging | Customer Service Management | Team Building 
                 <a class="btn btn-secondary btn-sm" href="https://github.com/amberwhizin/TellyCritic" role="button" target="_blank">Repo</a>
               </p>
             </div>
-          </div >
+          </div>
         </div>
       </div>
       <div class="projects">
@@ -148,25 +153,40 @@ Fullstack Application | Debugging | Customer Service Management | Team Building 
         </div>
       </div>
       </section>
+      <!-- contact information -->
+      <hr class="line" style="width:100%">
       <section class="contact section" id="contact">
-        <div class="container">
-        <hr class="line" style="width:100%">
         <h2 class="title">Contact</h2>
-        <!-- find better way -->
-        <li class = "social"><a href="mailto:amberwhizin@gmail.com"><img src="/assets/mail-Icon.png" style="width:5rem"/></a></li>
-        <li class = "social"><a href="./assets/_Amber-Whizin-Resume-2020-FINALFINALFINAL.pdf" target="_blank"><img src="/assets/Adobe-photo.jpg" style="width:5rem"/></li>
-        </a>
-         <li class = "social"><a href="https://www.linkedin.com/in/amberwhizin/" target="_blank"> <i class="fa fa-linkedin-square" style="font-size:6rem;color:	#87CEFA"></i></a></li>
-       <li class = "social" ><a href="https://github.com/amberwhizin" target="_blank"> <i class="fa fa-github" style="font-size:6rem;color:	#800080"></i></a></li>
-        <hr class="line" style="width:100%">
-        <p class="bottom">Amber Whizin 2020</p>
-        </div>
-        </section>
+        <div class="email"><h5>amberwhizin@gmail.com</h5></div>
+        <!-- icon links -->
+        <div class="social">
+          <!-- Resume -->
+          <li class="icon">
+           <a href="./assets/_Amber-Whizin-Resume-2020-FINALFINALFINAL.pdf" target="_blank">
+            <i class="fa fa-file-pdf-o" style="font-size:6rem;color:	black">
+            </i></a>
+            <p class="icon-text">Resume</p>
+          </li>
+          <!-- LinkedIn -->
+         <li class="icon">
+           <a href="https://www.linkedin.com/in/amberwhizin/" target="_blank">
+            <i class="fa fa-linkedin-square" style="font-size:6rem;color:	#6495ED">
+            </i></a>
+            <p class="icon-text">Linkedin</p>
+          </li>
+          <!-- Github -->
+          <li class="icon">
+            <a href="https://github.com/amberwhizin" target="_blank"> 
+              <i class="fa fa-github" style="font-size:6rem;color:	#800080">
+              </i>
+            </a>
+            <p class="icon-text">Github</p>
+          </li> 
+        </section>     
+    </div>
 </div>
-
-</div>
-
-
+    <!-- footer -->
+    <p class="bottom">Amber Whizin 2020</p>
     <!-- JavaScript Bundle with Popper -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -184,5 +204,6 @@ Fullstack Application | Debugging | Customer Service Management | Team Building 
       crossorigin="anonymous"
     ></script>
     <script src="app.js"></script>
+ 
   </body>
 </html>
