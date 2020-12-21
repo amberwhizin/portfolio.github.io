@@ -19,6 +19,13 @@ h2 {
   font-size: 3rem;
 }
 
+.profile-pic {
+  width: 400px;
+  max-height: 700px;
+  border-radius: 50%;
+  margin-bottom: 5rem;
+}
+
 a {
   text-decoration: none;
   color: #191970;
@@ -38,10 +45,11 @@ ul {
 }
 
 .job-title {
-  margin-bottom: 50rem;
+  margin-bottom: 7rem;
   margin-top: 4rem;
   font-size: 2rem;
 }
+
 
 .line {
   margin-top: 15rem;
