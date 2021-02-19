@@ -1,7 +1,7 @@
 body {
   background: linear-gradient(0.25turn, #c0d8e0, #ebf8e1, #c0d8e0);
   margin: auto;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .container {
@@ -49,7 +49,6 @@ ul {
   margin-top: 4rem;
   font-size: 2rem;
 }
-
 
 .line {
   margin-top: 20rem;
@@ -130,10 +129,12 @@ p {
   text-align: center;
 }
 
-.email {
-  text-decoration: underline;
+.email > h5 {
+  /* text-decoration: underline; */
   margin-top: 7rem;
   margin-bottom: 13rem;
+  border: 1px solid black;
+  padding: 1.3rem
 }
 
 .bottom {
