@@ -132,9 +132,9 @@ p {
 .email > h5 {
   /* text-decoration: underline; */
   margin-top: 7rem;
-  margin-bottom: 13rem;
+  margin-bottom: 7rem;
   border: 1px solid black;
-  padding: 1.3rem
+  padding: 1.2rem
 }
 
 .bottom {
