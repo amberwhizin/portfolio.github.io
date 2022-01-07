@@ -9,3 +9,6 @@
 - lining up of section is off
 - name and pic are sized wrong at home
 - toggle menu buttom turns orange when click, not nice
+- change telly critic photo
+- display-4 and title . projects and skills ..about are different fix
+- add game into portfolio! 

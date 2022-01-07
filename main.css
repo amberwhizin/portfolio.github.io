@@ -29,14 +29,21 @@ h2 {
   margin-bottom: 5rem;
 }
 
+@media (max-width: 900px) {
+  .profile-pic {
+    width: 100%;
+  }
+}
+
 a {
   text-decoration: none;
-  color: black;
+  opacity: 0.8;
 }
 
 a:hover {
-  color: #c0c0c0;
+  color: grey;
   text-decoration: none;
+  opacity: 1;
 }
 
 ul {
@@ -44,24 +51,47 @@ ul {
 }
 
 .name {
-  margin-top: 10rem;
-  font-size: 7rem;
+  margin-top: 4rem;
+  font-size: 5rem;
 }
 
+/* .name-mobile {
+  display: none;
+}
+@media (max-width: 640px) {
+  .name-mobile {
+    display: block;
+    font-size: 3rem;
+    margin-top: 2rem
+  }
+  .name {
+    display: none;
+  } */
+
 .job-title {
-  margin-bottom: 7rem;
+  margin-bottom: 4rem;
   margin-top: 4rem;
-  font-size: 2rem;
+  font-size: 1.89rem;
+}
+
+.job-title-mobile {
+  display: none;
+}
+@media (max-width: 640px) {
+  .job-title-mobile {
+    display: block;
+    font-size: 1.67rem;
+    margin: 1rem;
+    padding: 1rem;
+  }
+  .job-title {
+    display: none;
+  }
 }
 
 .line {
-  margin-top: 20rem;
-  margin-bottom: 20rem;
-}
-
-.title {
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 p {
@@ -71,9 +101,10 @@ p {
 
 .app-name {
   text-align: center;
-  margin-top: 10rem;
+  margin-top: 7rem;
   margin-bottom: 2rem;
-  font-size: 2rem;
+  font-size: 1.678rem;
+  color: #495057;
 }
 
 .navbar-brand {
@@ -90,13 +121,25 @@ p {
 
 .projects {
   text-align: center;
-  margin-top: 2rem;
 }
 
 .card-text {
   text-align: center;
   padding: 0;
   margin: 0;
+}
+
+.jumbotron {
+  opacity: 0.5;
+}
+
+.lead {
+  color: black;
+  opacity: 1;
+}
+
+.display-4 {
+  color: black;
 }
 
 #project-description {
@@ -146,7 +189,6 @@ p {
 }
 
 .email > h5 {
-  /* text-decoration: underline; */
   margin-top: 7rem;
   margin-bottom: 7rem;
   border: 1px solid black;
