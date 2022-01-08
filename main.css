@@ -29,12 +29,6 @@ h2 {
   margin-bottom: 5rem;
 }
 
-@media (max-width: 900px) {
-  .profile-pic {
-    width: 100%;
-  }
-}
-
 a {
   text-decoration: none;
   opacity: 0.8;
@@ -53,19 +47,6 @@ ul {
   margin-top: 4rem;
   font-size: 5rem;
 }
-
-/* .name-mobile {
-  display: none;
-}
-@media (max-width: 640px) {
-  .name-mobile {
-    display: block;
-    font-size: 3rem;
-    margin-top: 2rem
-  }
-  .name {
-    display: none;
-  } */
 
 .job-title {
   margin-bottom: 4rem;
@@ -199,6 +180,25 @@ iframe {
 }
 
 /* media queries */
+
+@media (max-width: 900px) {
+  .profile-pic {
+    width: 100%;
+  }
+}
+
+.name-mobile {
+  display: none;
+}
+@media (max-width: 640px) {
+  .name-mobile {
+    display: block;
+    font-size: 3rem;
+    margin-top: 2rem
+  }
+  .name {
+    display: none;
+  }
 
 @media (max-width: 640px) {
   .job-title-mobile {
