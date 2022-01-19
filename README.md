@@ -6,3 +6,7 @@
 - lining up of section is off
 - toggle menu buttom turns orange when click, not nice
 - make mobile pic smaller
+- fix resume pdf!! and change resume
+- rewrite about section
+- grammer "a" in about section issue
+- add icons for "react" and such
